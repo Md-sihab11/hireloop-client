@@ -1,4 +1,5 @@
 import { SiteHeader } from "@/components/layout/site-header";
+import { JobDiscoverySection } from "@/components/sections/discovery/job-discovery-section";
 import { HeroSection } from "@/components/sections/hero/hero-section";
 import { StarField } from "@/components/shared/star-field";
 
@@ -15,6 +16,7 @@ export default function Home() {
 
       <SiteHeader />
       <HeroSection />
+      <JobDiscoverySection />
     </main>
   );
 }
