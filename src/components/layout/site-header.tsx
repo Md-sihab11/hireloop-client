@@ -37,7 +37,7 @@ export function SiteHeader() {
             variant="ghost"
             size="lg"
             nativeButton={false}
-            render={<Link href="/sign-in" />}
+            render={<Link href="/login" />}
             className="px-3 text-[13px] font-medium text-white/55 hover:text-white"
           >
             Sign In
@@ -46,7 +46,7 @@ export function SiteHeader() {
             variant="brand"
             size="lg"
             nativeButton={false}
-            render={<Link href="/get-started" />}
+            render={<Link href="/signup" />}
             className="px-4 text-[13px]"
           >
             Get Started

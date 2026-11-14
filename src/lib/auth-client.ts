@@ -1,6 +1,8 @@
-import { createAuthClient } from "better-auth/react"
-export const authClient = createAuthClient({
-    /** The base URL of the server (optional if you're using the same domain) */
-    baseURL: process.env.BETTER_AUTH_URL,
-})
-export const { signIn, signUp, useSession } = createAuthClient()
+import { createAuthClient } from "better-auth/react";
+
+/**
+ * The single better-auth client used by every form in the app.
+ * When no `baseURL` is passed it calls the server it is served from
+ * (http://localhost:3000 in development), so no config is needed here.
+ */
+export const authClient = createAuthClient();

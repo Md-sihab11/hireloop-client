@@ -60,7 +60,7 @@ export function MobileNav() {
             variant="ghost"
             size="lg"
             nativeButton={false}
-            render={<Link href="/sign-in" />}
+            render={<Link href="/login" />}
             className="justify-start text-white/70 hover:text-white"
           >
             Sign In
@@ -69,7 +69,7 @@ export function MobileNav() {
             variant="brand"
             size="lg"
             nativeButton={false}
-            render={<Link href="/get-started" />}
+            render={<Link href="/signup" />}
           >
             Get Started
           </Button>
