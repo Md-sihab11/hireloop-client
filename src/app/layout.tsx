@@ -22,9 +22,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`dark ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-background font-sans text-foreground">
+      <body
+        suppressHydrationWarning
+        className="min-h-full bg-background font-sans text-foreground"
+      >
         {children}
       </body>
     </html>

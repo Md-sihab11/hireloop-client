@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { LoginForm } from "@/components/auth/login-form";
+import { LoginForm } from "@/features/auth";
 import { SiteHeader } from "@/components/layout/site-header";
 import { StarField } from "@/components/shared/star-field";
 

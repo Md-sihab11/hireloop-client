@@ -1,6 +1,9 @@
+import { Footer } from "@/components/layout/footer";
 import { SiteHeader } from "@/components/layout/site-header";
-import { JobDiscoverySection } from "@/components/sections/discovery/job-discovery-section";
+import { CtaSection } from "@/components/sections/cta/cta-section";
+import { JobDiscoverySection } from "@/features/jobs";
 import { HeroSection } from "@/components/sections/hero/hero-section";
+import { PricingSection } from "@/features/billing";
 import { StarField } from "@/components/shared/star-field";
 
 export default function Home() {
@@ -17,6 +20,9 @@ export default function Home() {
       <SiteHeader />
       <HeroSection />
       <JobDiscoverySection />
+      <PricingSection />
+      <CtaSection />
+      <Footer />
     </main>
   );
 }

@@ -1,0 +1,41 @@
+export async function getJobs(): Promise<any[]> {
+  return [
+    {
+      _id: "job-1",
+      title: "Senior Product Designer",
+      category: "Design",
+      companyName: "TechFlow Inc.",
+      location: "San Francisco, CA",
+      isRemote: true,
+      jobType: "full-time",
+      minSalary: "120",
+      maxSalary: "150",
+      salaryFrequency: "per hour",
+      applicants: 24,
+      status: "active",
+      deadline: "2026-12-31",
+      posted: "Posted 2d ago",
+      responsibilities: "Lead product design initiatives",
+      requirements: "5+ years UX/UI experience",
+    },
+    {
+      _id: "job-2",
+      title: "Full Stack Engineer",
+      category: "Engineering & Tech",
+      companyName: "TechFlow Inc.",
+      location: "Remote",
+      isRemote: true,
+      jobType: "full-time",
+      minSalary: "130",
+      maxSalary: "160",
+      salaryFrequency: "per hour",
+      applicants: 18,
+      status: "active",
+      deadline: "2026-11-30",
+      posted: "Posted 5d ago",
+      responsibilities: "Build scalable web applications",
+      requirements: "React, Node.js, TypeScript",
+    },
+  ];
+}
+
